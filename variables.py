@@ -25,5 +25,12 @@ print (company_employee_names)
 print (company_employee_salary)
 print (company_employee_names,company_employee_salary,company_id)
 
+multiple_line = ... git tag -a v1.0.0
+git tag -a v1.0.0 -m "Releasing version v1.0.0"
+git tag v1.0.0
+git tag -l -n3
+git show v1.0
+git push origin v1.0
+...
 
 
